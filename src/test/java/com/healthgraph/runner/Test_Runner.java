@@ -13,7 +13,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "C:\\Users\\AVITA\\eclipse-workspace\\HeathGraph1\\src\\test\\java\\FeatureFiles\\Healthgraph.feature",
                  glue = "C:\\Users\\AVITA\\eclipse-workspace\\HeathGraph1\\src\\test\\java\\com\\healthgraph\\stepdefination\\Step_Defination.java",
                  monochrome = true,
-                 dryRun = false)
+		 dryRun = false,
+                 plugin = {"pretty"})
 
 public class Test_Runner {
 
